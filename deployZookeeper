@@ -1,0 +1,4 @@
+#! /bin/bash 
+
+sudo docker build -t andmos/zookeeper .
+sudo docker run -p 2181:2181  -it andmos/zookeeper
