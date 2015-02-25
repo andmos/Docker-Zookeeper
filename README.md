@@ -16,4 +16,5 @@ Vagrant:
 		/vagrant/deployZookeeper
 
 
->For clustering, use `-p 2181:2181 2888:2888 3888:3888` 
+>For clustering, use `-p 2181:2181 2888:2888 3888:3888`
+Vagrantfile also contains the brilliant [zookeepercli](https://github.com/outbrain/zookeepercli) downloaded.
